@@ -1,5 +1,4 @@
-import math
-from ansi import *
+# import math
 
 inputfile = "input-day6.txt"
 inputdata = []
@@ -195,4 +194,3 @@ if __name__ == "__main__":
 	ReadInput()
 	# LoadTestDataB()
 	PartB()
-
