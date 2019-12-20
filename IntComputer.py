@@ -10,7 +10,7 @@ class IntComputer():
     _inputs = []
     _relative_base = 0
 
-    version = "v9"
+    version = "v19"
     identifier = None
     outputs = []
     lastoutput = None
@@ -30,6 +30,7 @@ class IntComputer():
         self._inputs = []
         self._inputix = 0
         self._relative_base = 0
+        self.finished = False
 
     def run(self, inputs):
         self._inputs += inputs
