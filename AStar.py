@@ -1,4 +1,4 @@
-class Astar:
+class AStar:
 
     def __init__(self, matrix):
         self.mat = self.prepare_matrix(matrix)

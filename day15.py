@@ -252,7 +252,7 @@ def PartA():
 				mline.append(0)
 		maze.append(mline)
 
-	astar = Astar(maze)
+	astar = AStar(maze)
 	path = astar.run([start[0], start[1]], [end[0], end[1]])
 
 	for s in path:
