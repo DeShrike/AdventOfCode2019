@@ -10,7 +10,7 @@ class IntComputer():
     _inputs = []
     _relative_base = 0
 
-    version = "v19"
+    version = "v23"
     identifier = None
     outputs = []
     lastoutput = None
@@ -158,7 +158,7 @@ class IntComputer():
                 self.outputs.append(val1)
                 
                 if self._outputcallback != None:
-                    self._outputcallback(self.lastoutput)
+                    self._outputcallback(self.lastoutput, self.identifier)
                 
                 if self._debug:
                     print(self.identifier, end = "|")
