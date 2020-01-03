@@ -42,7 +42,7 @@ paddlex = 0
 paddley = 0
 score = 0
 
-def OnOutput(output):
+def OnOutput(output, ix):
 	global x
 	global y
 	global paddlex

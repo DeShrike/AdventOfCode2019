@@ -95,7 +95,7 @@ def PrintGrid(cx, cy):
 #########################################
 #########################################
 
-def OnOutput(output):
+def OnOutput(output, ix):
 	global posx
 	global posy
 	global osystemx

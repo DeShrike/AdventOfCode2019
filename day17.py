@@ -78,7 +78,7 @@ posx = 0
 posy = 0
 facing = 0
 
-def OnOutputA(value):
+def OnOutputA(value, ix):
 	global posx
 	global posy
 
@@ -109,7 +109,7 @@ def  TryGet2(x, y):
 		return None
 	return WALL if grid[y][x] == VISITED else grid[y][x]
 
-def OnOutputB(value):
+def OnOutputB(value, ix):
 	# print("OUTPUT: %d" % value)
 	pass
 

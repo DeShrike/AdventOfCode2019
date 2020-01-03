@@ -23,7 +23,7 @@ def AsciiToArray(command):
 	cmd.append(10)
 	return cmd
 
-def OnOutputA(value):
+def OnOutputA(value, ix):
 	global outputstring
 	if value > 255:
 		return
